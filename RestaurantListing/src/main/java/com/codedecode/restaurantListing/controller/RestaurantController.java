@@ -11,7 +11,6 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.codedecode.restaurantListing.dto.RestaurantDTO;
@@ -28,13 +27,13 @@ public class RestaurantController {
 	@GetMapping("/fetchAllRestaurants")
 	public ResponseEntity<List<RestaurantDTO>> fetchAllRestaurants() {
 		List<RestaurantDTO> allRestaurants = restaurantService.fetchAllRestaurants();
-		return new ResponseEntity(allRestaurants, HttpStatus.OK);
+		return new ResponseEntity<List<RestaurantDTO>>(allRestaurants, HttpStatus.OK);
 	}
 
 	@PostMapping("/addRestaurant")
 	public ResponseEntity<RestaurantDTO> saveRestaurant(@RequestBody RestaurantDTO restaurantDTO) {
 		RestaurantDTO restuarant = restaurantService.addRestaurantInDb(restaurantDTO);
-		return new ResponseEntity(restuarant, HttpStatus.CREATED);
+		return new ResponseEntity<RestaurantDTO>(restuarant, HttpStatus.CREATED);
 	}
 
 	@GetMapping("/fetchRestaurantById/{id}")
