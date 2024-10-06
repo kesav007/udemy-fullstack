@@ -6,7 +6,7 @@ import { FoodItem } from "../../Shared/models/FoodItem";
 
 export interface OrderDTO{
 
-    foodItemsList?: FoodItem[];
+    foodItems?: FoodItem[];
     userId?: number;
     restaurant?: Restaurant;
 }

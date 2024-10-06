@@ -70,11 +70,11 @@ export class FoodCatalogueComponent {
   onCheckOut() {
     this.foodItemCart;
     this.orderSummary = {
-      foodItemsList: [],
+      foodItems: [],
       restaurant: undefined
     }
     if(this.orderSummary) {
-    this.orderSummary.foodItemsList = this.foodItemCart;
+    this.orderSummary.foodItems = this.foodItemCart;
     this.orderSummary.restaurant = this.foodItemResponse?.restaurant;
     }
     this.router.navigate(['/orderSummary'], { queryParams: { data: JSON.stringify(this.orderSummary) } });
