@@ -15,7 +15,7 @@ import com.codedecode.order.service.OrderService;
 
 @RestController
 @RequestMapping("/order")
-@CrossOrigin
+@CrossOrigin(origins = "http://localhost:4200")
 public class OrderDetailsController {
 
 	@Autowired
