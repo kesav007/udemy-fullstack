@@ -4,4 +4,14 @@ eureka:
     hostname: eureka-0
   client:
     service-url:
-      defaultZone: http://eureka-0.eureka.default.svc.cluster.local:8761/eureka
+      defaultZone: http://localhost:8761/eureka/
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://kesavnallan:Swordfish@atlas-cluster.rp4ne.mongodb.net/orderdb
+      host: atlas-cluster-shard-00-00.rp4ne.mongodb.net
+      port: 27017
+      database: orderdb
+      repositories:
+        enabled: true 
