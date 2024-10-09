@@ -10,6 +10,7 @@ import com.codedecode.foodcatalog.entity.FoodItem;
 @Repository
 public interface FoodItemRepo extends JpaRepository<FoodItem, Integer>{
 
-	List<FoodItem> findByRestaurantId(Integer restuarantId);
+	List<FoodItem> findByRestaurantId(int restuarantId);
+	
 
 }

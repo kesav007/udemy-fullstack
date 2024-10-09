@@ -15,10 +15,10 @@ public class FoodItem {
 	private String itemName;
 	private String itemDescription;
 	private String veg;
-	private Number price;
-	private Integer restaurantId;
+	private int price;
+	private int restaurantId;
 	@Column(nullable = false, columnDefinition = "INT DEFAULT 0")
-	private Integer quantity;
+	private int quantity;
 	public int getId() {
 		return id;
 	}
@@ -37,30 +37,29 @@ public class FoodItem {
 	public void setItemDescription(String itemDescription) {
 		this.itemDescription = itemDescription;
 	}
-	
-	public Number getPrice() {
-		return price;
-	}
-	public void setPrice(Number price) {
-		this.price = price;
-	}
-	public Integer getRestaurantId() {
-		return restaurantId;
-	}
-	public void setRestaurantId(Integer restaurantId) {
-		this.restaurantId = restaurantId;
-	}
-	public Integer getQuantity() {
-		return quantity;
-	}
-	public void setQuantity(Integer quantity) {
-		this.quantity = quantity;
-	}
 	public String getVeg() {
 		return veg;
 	}
 	public void setVeg(String veg) {
 		this.veg = veg;
+	}
+	public int getPrice() {
+		return price;
+	}
+	public void setPrice(int price) {
+		this.price = price;
+	}
+	public int getRestaurantId() {
+		return restaurantId;
+	}
+	public void setRestaurantId(int restaurantId) {
+		this.restaurantId = restaurantId;
+	}
+	public int getQuantity() {
+		return quantity;
+	}
+	public void setQuantity(int quantity) {
+		this.quantity = quantity;
 	}
 	
 	

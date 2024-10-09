@@ -14,9 +14,10 @@ import org.springframework.web.bind.annotation.RestController;
 import com.codedecode.foodcatalog.dto.FoodCatalogPage;
 import com.codedecode.foodcatalog.dto.FoodItemDTO;
 import com.codedecode.foodcatalog.service.FoodCatalogService;
-@CrossOrigin(origins = "http://localhost:4200")
+
 @RestController
 @RequestMapping("foodCatalogue")
+@CrossOrigin(origins = "http://localhost:4200/")
 public class FoodCatalogController {
 
 	@Autowired

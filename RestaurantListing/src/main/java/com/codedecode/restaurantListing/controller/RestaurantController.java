@@ -18,7 +18,7 @@ import com.codedecode.restaurantListing.service.RestaurantService;
 
 @RestController
 @RequestMapping("/restaurant")
-@CrossOrigin
+@CrossOrigin(origins = "http://localhost:4200/")
 public class RestaurantController {
 
 	@Autowired

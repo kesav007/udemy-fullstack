@@ -1,0 +1,17 @@
+INSERT INTO `foodcatalogdb`.`food_item` (`id`, `item_description`, `item_name`, `price`, `quantity`, `restaurant_id`, `veg`)VALUES (1, 'Delicious vegetarian dish', 'Vegetable Biryani', 300, 0, 1, 'true');
+INSERT INTO `foodcatalogdb`.`food_item` (`id`, `item_description`, `item_name`, `price`, `quantity`, `restaurant_id`, `veg`)VALUES (2, 'Succulent chicken in a creamy sauce', 'Butter Chicken' , 200, 0, 1, 'false');
+INSERT INTO `foodcatalogdb`.`food_item` (`id`, `item_description`, `item_name`, `price`, `quantity`, `restaurant_id`, `veg`)VALUES (3, 'Mouthwatering lentil curry',	'Dal Tadka', 	350,	0,	2, 'true');
+INSERT INTO `foodcatalogdb`.`food_item` (`id`, `item_description`, `item_name`, `price`, `quantity`, `restaurant_id`, `veg`)VALUES (4, 'Spicy and flavorful lamb curry',	'Rogan Josh',	315,	0,	2, 'false');
+INSERT INTO `foodcatalogdb`.`food_item` (`id`, `item_description`, `item_name`, `price`, `quantity`, `restaurant_id`, `veg`)VALUES (5, 'Crispy and spicy potato patties',	'Aloo Tikki',	500,	0,	3, 'true');
+INSERT INTO `foodcatalogdb`.`food_item` (`id`, `item_description`, `item_name`, `price`, `quantity`, `restaurant_id`, `veg`)VALUES (6, 'Paneer cubes marinated in tandoori spices',	'Tandoori Paneer Tikka',	900,	0,	3, 'true');
+INSERT INTO `foodcatalogdb`.`food_item` (`id`, `item_description`, `item_name`, `price`, `quantity`, `restaurant_id`, `veg`)VALUES (7, 'Fragrant and aromatic rice dish',	'Chicken Biryani',	120,	0,	4, 'false');
+INSERT INTO `foodcatalogdb`.`food_item` (`id`, `item_description`, `item_name`, `price`, `quantity`, `restaurant_id`, `veg`)VALUES (8, 'Mixed vegetable curry',	'Vegetable Korma',	110,	0,	4, 'true');
+INSERT INTO `foodcatalogdb`.`food_item` (`id`, `item_description`, `item_name`, `price`, `quantity`, `restaurant_id`, `veg`)VALUES (9, 'Spicy and tangy shrimp curry',	'Goan Prawn Curry',	140,	0,	5, 'false');
+INSERT INTO `foodcatalogdb`.`food_item` (`id`, `item_description`, `item_name`, `price`, `quantity`, `restaurant_id`, `veg`)VALUES (10, 'Fluffy Indian bread',	'Naan',	300,	0,	5, 'true');
+INSERT INTO `foodcatalogdb`.`food_item` (`id`, `item_description`, `item_name`, `price`, `quantity`, `restaurant_id`, `veg`)VALUES (11, 'Chicken marinated in yogurt and spices',	'Chicken Tikka',	100,	0,	6, 'false');
+INSERT INTO `foodcatalogdb`.`food_item` (`id`, `item_description`, `item_name`, `price`, `quantity`, `restaurant_id`, `veg`)VALUES (12, 'Aromatic rice pudding',	'Kheer',	600,	0,	6, 'true');
+INSERT INTO `foodcatalogdb`.`food_item` (`id`, `item_description`, `item_name`, `price`, `quantity`, `restaurant_id`, `veg`)VALUES (13, 'Savory lentil donuts',	'Medu Vada',	400,	0,	7, 'true');
+INSERT INTO `foodcatalogdb`.`food_item` (`id`, `item_description`, `item_name`, `price`, `quantity`, `restaurant_id`, `veg`)VALUES (14, 'Crispy crepe filled with spiced potatoes',	'Masala Dosa',	800,	0,	7, 'true');
+INSERT INTO `foodcatalogdb`.`food_item` (`id`, `item_description`, `item_name`, `price`, `quantity`, `restaurant_id`, `veg`)VALUES (15, 'Refreshing yogurt-based drink',	'Mango Lassi',	500,	0,	8, 'true');
+INSERT INTO `foodcatalogdb`.`food_item` (`id`, `item_description`, `item_name`, `price`, `quantity`, `restaurant_id`, `veg`)VALUES (16, 'Assorted Indian bread basket',	'Basket of Rotis',	700,	0,	8, 'true');
+INSERT INTO `foodcatalogdb`.`food_item` (`id`, `item_description`, `item_name`, `price`, `quantity`, `restaurant_id`, `veg`)VALUES (17, 'Lentils cooked with mixed spices',	'Dal Fry',	350,	0,	1, 'true');
