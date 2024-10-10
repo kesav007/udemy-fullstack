@@ -1,0 +1,1 @@
+eksctl create cluster --name aws-eks-cluster1 --region us-east-1 --nodegroup-name eks-cluster-node1 --node-type t3.medium --nodes 1
