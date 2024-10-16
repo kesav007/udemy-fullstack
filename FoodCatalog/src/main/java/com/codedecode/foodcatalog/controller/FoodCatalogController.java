@@ -16,7 +16,7 @@ import com.codedecode.foodcatalog.dto.FoodItemDTO;
 import com.codedecode.foodcatalog.service.FoodCatalogService;
 
 @RestController
-@RequestMapping("foodCatalogue")
+@RequestMapping("/foodCatalogue")
 @CrossOrigin(origins = "http://localhost:4200/")
 public class FoodCatalogController {
 
